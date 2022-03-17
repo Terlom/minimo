@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a28f2c0c.css",
+    "main.js": "/static/js/main.af90629a.js",
+    "static/media/postImg1.png": "/static/media/postImg1.f7f30012fc0b63b3d66c.png",
+    "static/media/postImg2.png": "/static/media/postImg2.b385a4d85857ddbc3bd5.png",
+    "static/media/coverImg.png": "/static/media/coverImg.fc2c628eb21d38316795.png",
+    "static/media/postImg3.png": "/static/media/postImg3.2d94590eeef5d8c35119.png",
+    "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.b6c0962b33adfd62ee88.ttf",
+    "static/media/PlayfairDisplay-Black.ttf": "/static/media/PlayfairDisplay-Black.5f3cf41d49e31b00169d.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.b982583b4edccc394bb4.ttf",
+    "static/media/img5.png": "/static/media/img5.72825feb6a4b81e735b2.png",
+    "static/media/img2.png": "/static/media/img2.96e677ecb76a0f70dd02.png",
+    "static/media/img6.png": "/static/media/img6.4ce8368d63ca653fcccc.png",
+    "static/media/PlayfairDisplay-Italic.ttf": "/static/media/PlayfairDisplay-Italic.8b034e8d3b1fa7ddb9c0.ttf",
+    "static/media/img1.png": "/static/media/img1.c94357ccad9ba530f882.png",
+    "static/media/img4.png": "/static/media/img4.f434c5dfbc216d50082a.png",
+    "static/media/Inconsolata-Regular.ttf": "/static/media/Inconsolata-Regular.ed7f6e5be703abdc4a71.ttf",
+    "static/media/img3.png": "/static/media/img3.79fc1cdf0685f534f76f.png",
+    "static/media/profileCoverImg.png": "/static/media/profileCoverImg.9fc98ab7190e1abffaa9.png",
+    "static/media/bannerSpot.png": "/static/media/bannerSpot.aacf6497b35455619e6c.png",
+    "static/media/pinterest.svg": "/static/media/pinterest.0a13164a5797e39e8bf3.svg",
+    "static/media/g+.svg": "/static/media/g+.316831e785661606cb12.svg",
+    "static/media/sendIcon.svg": "/static/media/sendIcon.093fceb8a68d2d61e460.svg",
+    "static/media/twitterIcon.svg": "/static/media/twitterIcon.6047182a87da2ebd8d04.svg",
+    "index.html": "/index.html",
+    "static/media/instagramIcon.svg": "/static/media/instagramIcon.ce64e26e21b701ee2d2d.svg",
+    "static/media/tumblr.svg": "/static/media/tumblr.455514925cf4e1f70058.svg",
+    "static/media/facebookIcon.svg": "/static/media/facebookIcon.ba38c1dbccb753d2cf22.svg",
+    "static/media/menu.svg": "/static/media/menu.0f26fc2059a8880b7cd9.svg",
+    "main.a28f2c0c.css.map": "/static/css/main.a28f2c0c.css.map",
+    "main.af90629a.js.map": "/static/js/main.af90629a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a28f2c0c.css",
+    "static/js/main.af90629a.js"
+  ]
+}
