@@ -1,0 +1,556 @@
+@mixin UbuntuLight{
+    font-family: Ubuntu;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+header{
+    margin-top: 70px;
+    text-transform: uppercase;
+    margin-bottom: 77px;
+}
+header,footer{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo{
+    font-family: Inconsolata;
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+.desktopMenu{
+    ul{
+        display: flex;
+    }
+    li{
+        color: #626262;
+        margin-right: 120px;
+        cursor: pointer;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+#mobileMenu{
+    display: none;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 8;
+}
+.coverImg{
+    width: 100%;
+    margin-bottom: 97px;
+}
+.innerContainer{
+    width: 896px;
+    margin: 0 auto;
+}
+.topic{
+    padding-bottom: 26px;
+}
+.post{
+    margin-bottom: 134px;
+    h2{
+        padding-bottom: 39px;
+    }
+    button{
+        font-family: Ubuntu;
+        background: none;
+        border: none;
+        color: #b4ad9e;
+        text-transform: uppercase;
+    }
+}
+.textOfPost{
+    padding-bottom: 51px;
+    p{
+        padding-bottom: 32px;
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+}
+.collectionOfBlogs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blogPreview{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 132px;
+    img{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    h2{
+        padding-bottom: 35px;
+    }
+}
+.newsSubscription{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:73px;
+    padding-bottom: 73px;
+    margin-bottom: 103px;
+    h2{
+        text-align: center;
+        letter-spacing: 0.75px;
+        padding-bottom: 83px;
+    }
+}
+.textField{
+    display: flex;
+    width: 398px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid black;
+    input{
+        color: #626262;
+        width: 100%;
+        background: none;
+        outline: none;
+        border: none;
+        padding-left: 3px;
+
+    }
+    .sendEmail{
+        border: none;
+        background: none;
+        outline: none;
+        padding-top: 5px;
+    }
+}
+.loadMore{
+    display: block;
+    color: #626262;
+    margin: 0 auto;
+    width: 164px;
+    height: 60px;
+    border: 1px solid #626262;
+    background: none;
+    cursor: pointer;
+}
+footer{
+    background-color: #f0f0f0;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    .container{
+        box-sizing: border-box;
+        padding-left: 80px;
+        .documents{
+            a{
+                margin-right: 28px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+        .socials{
+            display: flex;
+            span{
+                padding-right: 21px;
+            }
+            a{
+                padding-right: 17px;
+                &:last-child{
+                    padding-right: 0;
+                }
+            }
+            .socialsLink{
+                display: flex;
+            }
+        }
+    }
+}
+.postImg{
+    margin-bottom: 55px;
+}
+strong{
+    font-family: PlayfairDisplay-Black;
+}
+em{
+    display: block;
+    width: 95.3%;
+    margin: 0 auto 32px;
+    font-family: PlayfairDisplay-Italic;
+    line-height: 24px;
+}
+.post{
+    margin-bottom: 80px;
+}
+.share{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    @include UbuntuLight;
+    font-size: 13px;
+    span{
+        padding-right: 23px;
+    }
+    .shareLink{
+        display: flex;
+        a{
+            padding-right: 17px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
+.suggestion{
+    background: #f5f5f5;
+    padding: 68px 0 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 66px;
+    img{
+        padding-bottom: 18px;
+    }
+    p{
+        padding-bottom: 32px;
+    }
+}
+.suggestedPosts{
+    display: flex;
+    justify-content: space-between;
+}
+.suggestedPost{
+    width: 275px;
+}
+.comments{
+    padding-bottom: 39px;
+}
+.commentBlock{
+    display: flex;
+    margin-bottom: 58px;
+    .name{
+        padding-bottom: 4px;
+    }
+}
+.qtyOfComments{
+    @include UbuntuLight;
+    padding-bottom: 38px;
+}
+.comment{
+    padding-bottom: 22px;
+}
+.defaultProfilePhoto{
+    background-color: #cae5e0;
+    &.currentUser{
+        background-color: #ededea;
+    }
+
+}
+.profilePhoto{
+    @include UbuntuLight;
+    min-width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 36px;
+    margin-top: 6px;
+    font-size: 34px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.reply{
+    @include UbuntuLight;
+    border: none;
+    background: none;
+}
+.connectedWith{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    span{
+        @include UbuntuLight;
+        padding-right: 37px;
+    }
+    .connectedLinks{
+        display: flex;
+        a{
+            padding-right: 16px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
+.addComment{
+    display: flex;
+    input{
+        width: 100%;
+        border: 1px solid #c8c8c8;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 15px;
+        &::placeholder{
+            @include UbuntuLight;
+            color: #c8c8c8;
+            padding: 34px 31px;
+        }
+    }
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    .post{
+        width: 660px;
+        margin-left: 80px;
+        em{
+            width: 94%;
+        }
+    }
+}
+.profileInfo{
+    line-height: 20px;
+    width: 276px;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    margin-bottom: 80px;
+    h3{
+        padding-bottom: 26px;
+    }
+    h5{
+        padding-bottom: 10px;
+    }
+}
+.authorInfo{
+    font-size: 12px;
+    padding-bottom: 23px;
+}
+.profileSocial{
+    display: flex;
+    padding-bottom: 75px;
+    a{
+        padding-right: 16px;
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+}
+.profileCoverImg{
+    padding-bottom: 29px;
+}
+.topPosts{
+    ul{
+        padding-bottom: 53px;
+        li{
+            position: relative;
+            padding-left: 26px;
+            padding-bottom: 10px;
+            &::before{
+                position: absolute;
+                left: 0;
+                content: "●";
+                color: #b4ad9e;
+            }
+            &:last-child{
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+.topPosts__qtyOfComments{
+    @include UbuntuLight;
+    font-size: 12px;
+}
+.topPosts__title{
+    @include UbuntuLight;
+    padding-bottom: 36px;
+}
+.bannerSpot{
+    @include UbuntuLight;
+    position: relative;
+    line-height: normal;
+    background: url("./imgs/bannerSpot.png") no-repeat;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    &__width{
+        font-size: 48px;
+        padding-bottom: 12px;
+    }
+}
+@media only screen and (max-width: 1070px) {
+    .container, .innerContainer{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+    .innerContainer{
+        padding: 0 30px;
+    }
+    .content{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 30px;
+        .post{
+            width: 100%;
+            margin-left: 0;
+            padding-right: 20px;
+            em{
+                width: 94%;
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 920px) {
+    .suggestion{
+        padding: 42px 0 42px ;
+    }
+    .suggestedPosts{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .suggestedPost{
+        padding-bottom: 28px;
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+    .blogPreview{
+        width: 340px;
+    }
+    .desktopMenu{
+        li{
+            margin-right: 62px;
+        }
+    }
+    .upperBlock-tablet{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .profileCoverImg{
+        width: 272px;
+        height: 186px;
+        padding-right: 15px;
+    }
+    .lowerBlock-tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profileInfo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .profileInfo{
+        width: 100%;
+        position: static;
+    }
+}
+@media only screen and (max-width: 750px) {
+    main{
+        .container{
+            padding: 0;
+        }
+    }
+    .coverImg{
+        margin-bottom: 46px;
+    }
+    .collectionOfBlogs{
+        justify-content: center;
+    }
+    .blogPreview{
+        width: 420px;
+    }
+    .textField{
+        width: 300px;
+    }
+    .desktopMenu{
+        li{
+            margin-right: 42px;
+        }
+    }
+    footer{
+        .container{
+            padding: 0;
+            flex-direction: column-reverse;
+        }
+        .socials{
+            padding-bottom: 25px;
+        }
+    }
+    .profileInfo{
+        width: 276px;
+    }
+    .content{
+        align-items: center;
+    }
+    .upperBlock-tablet{
+        display: block;
+    }
+    .lowerBlock-tablet{
+        display: block;
+    }
+    .bannerSpot{
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .postImg{
+        margin-bottom: 20px;
+    }
+    .profilePhoto{
+        min-width: 42px;
+        height: 42px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .icon.menu{
+        display: block;
+    }
+    .mobileMenu{
+        background: #f0f0f0;
+        margin-top: 60px;
+        height: fit-content;
+        ul{
+            z-index: 9;
+            display: flex;
+            flex-direction: column;
+            li{
+                padding: 20px 30px 30px 20px;
+                border-bottom: 1px solid #b4ad9e;
+            }
+        }
+    }
+    .addComment{
+        input{
+            &::placeholder{
+                padding: 34px 0;
+            }
+        }
+    }
+}

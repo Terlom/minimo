@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  margin-bottom: 96px;
+}
+body{
+  font-family: PlayfairDisplay;
+  font-size: 14px;
+  color: #626262;
+}
+img{
+  width: 100%;
+}
+.container{
+  width: 1062px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+h2{
+  font-size: 30px;
+  font-weight: normal;
+}
+h3{
+  font-size: 24px;
+  font-weight: normal;
+}
+h4{
+  font-size: 20px;
+  font-weight: normal;
+}
+h5{
+  font-size: 16px;
+  font-weight: normal;
+}
+h6{
+  font-size: 14px;
+  font-weight: normal;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+p{
+  line-height: 24px;
+}
+a{
+  outline: none;
+  color: black;
+  text-decoration: none;
+}
+.icon {
+  display: block;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background-color: #626262;
+  width: 18px;
+  height: 18px;
+
+  &.default {
+    width: 1em;
+    height: 1em;
+  }
+  &.light{
+    background: #b4ad9e;
+  }
+  &.send{
+    -webkit-mask-image: url("imgs/sendIcon.svg");
+    width: 32px;
+    height: 17px;
+  }
+  &.facebook {
+    -webkit-mask-image: url("imgs/facebookIcon.svg");
+  }
+  &.twitter {
+    -webkit-mask-image: url("imgs/twitterIcon.svg");
+  }
+  &.instagram {
+    -webkit-mask-image: url("imgs/instagramIcon.svg");
+  }
+  &.google {
+    -webkit-mask-image: url("imgs/g+.svg");
+  }
+  &.tumblr {
+    -webkit-mask-image: url("imgs/tumblr.svg");
+  }
+  &.pinterest {
+    -webkit-mask-image: url("imgs/pinterest.svg");
+  }
+  &.menu {
+    -webkit-mask-image: url("imgs/menu.svg");
+    display: none;
+    width: 32px;
+    height: 32px;
+  }
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: Inconsolata;
+  src: url(./fonts/Inconsolata-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(./fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay-Black;
+  src: url(./fonts/PlayfairDisplay-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(./fonts/PlayfairDisplay-Italic.ttf);
+}
